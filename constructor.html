@@ -1,0 +1,48 @@
+<h3 id="msg"></h3>
+
+<script type="text/javascript">
+    
+
+    class Details{
+
+        constructor(){
+           this.a = 10;
+           this.b=5;
+           this.data = [
+                {
+                    name : 'jay',
+                    phone : 1234
+                },
+                {
+                    name : 'ajay',
+                    phone : 123456
+                },
+                {
+                    name : 'vijay',
+                    phone : 12345
+                }
+           ]
+        }
+
+        sum(){
+            console.log(`A = ${this.a + this.b}`);
+        }
+           
+
+        min(){
+            console.log(`A = ${this.a}`);
+        }
+
+        details(){
+            console.log(this.data);
+        }
+
+
+    }
+    let milansir = new Details;
+    milansir.sum()
+    milansir.min();
+    milansir.details();
+
+
+</script>
